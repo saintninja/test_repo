@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+
 void greet(const std::string& str) {
     std::cout << "Greetings, " << str << std::endl;
 }
