@@ -1,11 +1,14 @@
 #include <iostream>
 #include <string>
 
+void greet(const std::string& str) {
+    std::cout << "Greetings, " << str << std::endl;
+}
 
 int main() {
     std::string name;
     std::cout << "Enter your name: ";
     std::cin >> name;
-    std::cout << "Greetings, " << name << std::endl;
+    greet(name);
     return 0;
 }
